@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Multiple Request IDs Handler",
+  "version": "1.0",
+  "description": "A browser extension that automates the process of entering request IDs into the Au10tix console for an enhanced user experience.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "au10tix.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "au10tix.png",
+    "48": "au10tix.png",
+    "128": "au10tix.png"
+  }
+}
